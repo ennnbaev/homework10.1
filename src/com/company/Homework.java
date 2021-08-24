@@ -10,6 +10,7 @@ public class Homework {
         collection.add(new Employee("Danil","Enbaev",55000));
         collection.add(new Employee("Liza","Savchenko",9000));
         collection.add(new Employee("Denis","Maksymenko",18000));
+        collection.add(new Employee("Kirill","Kondrat",18500));
         System.out.println(collection);
         Collections.sort(collection);
         System.out.println(collection);

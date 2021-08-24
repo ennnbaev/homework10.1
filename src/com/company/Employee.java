@@ -3,16 +3,15 @@ package com.company;
 public class Employee implements Comparable<Employee> {
     String firstName;
     String lastName;
-    int salary;
+    double salary;
     int id;
     static int count=0;
 
-    Employee(String firstName,String lastName,int salary){
+    Employee(String firstName,String lastName,double salary){
         this.firstName=firstName;
         this.lastName=lastName;
         this.salary=salary;
        id=count++;
-
     }
 
     @Override
